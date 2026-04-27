@@ -1,0 +1,56 @@
+id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness
+1,Sunrise City,Neon Echo,pop,happy,0.82,118,0.84,0.79,0.18
+2,Midnight Coding,LoRoom,lofi,chill,0.42,78,0.56,0.62,0.71
+3,Storm Runner,Voltline,rock,intense,0.91,152,0.48,0.66,0.10
+4,Library Rain,Paper Lanterns,lofi,chill,0.35,72,0.60,0.58,0.86
+5,Gym Hero,Max Pulse,pop,intense,0.93,132,0.77,0.88,0.05
+6,Spacewalk Thoughts,Orbit Bloom,ambient,chill,0.28,60,0.65,0.41,0.92
+7,Coffee Shop Stories,Slow Stereo,jazz,relaxed,0.37,90,0.71,0.54,0.89
+8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22
+9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78
+10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35
+11,Blue Hour Drift,Velvet Meridian,jazz,relaxed,0.46,92,0.58,0.43,0.81
+12,Iron Pulse,Ash Dominion,metal,intense,0.94,168,0.35,0.72,0.06
+13,Night Notebook,Cloud Harbor,lofi,chill,0.38,74,0.61,0.55,0.80
+14,Glass Morning,North Hall Ensemble,classical,chill,0.24,68,0.70,0.28,0.90
+15,Afterglow Avenue,Marin Vale,R&B,happy,0.61,96,0.72,0.65,0.42
+16,Solar Arcade,Pixel Bloom,electronic,happy,0.83,128,0.68,0.80,0.10
+17,Open Road Static,Juniper Run,indie,moody,0.57,112,0.53,0.50,0.55
+18,River Lanterns,Willow Thread,folk,relaxed,0.41,84,0.75,0.44,0.78
+19,Neon Pulse,Synthwave Kid,pop,happy,0.85,128,0.90,0.88,0.05
+20,Rainy Day Loops,ChillBeats,lofi,chill,0.25,70,0.40,0.55,0.80
+21,Thunder Road,Iron Wolves,rock,intense,0.90,155,0.25,0.38,0.03
+22,Bossa Nova Sunset,Trio Caliente,jazz,relaxed,0.40,95,0.75,0.65,0.72
+23,Electric Feel,Voltage,pop,energetic,0.88,135,0.85,0.90,0.06
+24,Dusty Strings,Acoustic Soul,folk,melancholy,0.30,85,0.35,0.45,0.92
+25,Rage Protocol,DeathMetal X,metal,intense,0.98,180,0.10,0.30,0.01
+26,Blue in Green,Miles D,jazz,melancholy,0.28,60,0.30,0.35,0.65
+27,Wildfire,Country Roads,folk,happy,0.60,110,0.80,0.70,0.75
+28,Bass Drop,DJ Pulse,electronic,energetic,0.95,140,0.70,0.95,0.02
+29,Sakura Rain,Koto Dreams,classical,peaceful,0.20,55,0.65,0.30,0.95
+30,Sugar Rush,PopStar,pop,happy,0.82,126,0.92,0.87,0.07
+31,Ember Glow,Indie Hearts,indie,melancholy,0.45,95,0.40,0.55,0.60
+32,Phoenix Rising,Arena Rock,rock,energetic,0.88,148,0.60,0.50,0.05
+33,Whisper in the Wind,Folk Tales,folk,peaceful,0.25,78,0.55,0.40,0.88
+34,Techno Surge,BerlinClub,electronic,intense,0.97,145,0.40,0.92,0.01
+35,Golden Hour,Indie Folk,indie,happy,0.50,100,0.78,0.62,0.65
+36,Moonlight Sonata Remix,Classical EDM,classical,peaceful,0.35,80,0.60,0.55,0.70
+37,Late Night Study,ChillWave,lofi,chill,0.15,62,0.38,0.45,0.92
+38,Neon Tokyo,CityPop,pop,happy,0.78,124,0.87,0.84,0.08
+39,Heartstrings,Acoustic Indie,indie,melancholy,0.38,88,0.35,0.48,0.78
+40,Jazz Noir,Detective Vibes,jazz,melancholy,0.30,75,0.25,0.38,0.68
+41,Countryside Morning,Folk Roots,folk,peaceful,0.22,72,0.60,0.42,0.95
+42,Rave Nation,EDM Crew,electronic,energetic,0.98,150,0.65,0.97,0.01
+43,Soul Sister,RnB Classics,R&B,happy,0.68,104,0.85,0.82,0.22
+44,Breakaway,Punk Energy,rock,intense,0.92,162,0.35,0.45,0.03
+45,Vinyl Memories,Retro Lofi,lofi,chill,0.20,70,0.48,0.50,0.87
+46,Cathedral Sound,Post Classical,classical,peaceful,0.25,50,0.50,0.25,0.90
+47,Fire Walk,Blues Rock,rock,intense,0.80,138,0.40,0.55,0.18
+48,Midnight City,Indie Electronic,indie,energetic,0.75,122,0.68,0.78,0.15
+49,Sunday Groove,Jazz Funk,jazz,happy,0.58,108,0.82,0.72,0.45
+50,Steel Rain,Thrash Metal,metal,intense,0.97,178,0.08,0.25,0.01
+51,Barefoot Summer,Folk Pop,folk,happy,0.55,105,0.82,0.65,0.70
+52,Synthia,Electro Pop,pop,energetic,0.90,138,0.82,0.91,0.04
+53,Lo-Fi Heaven,BeatsOnly,lofi,chill,0.17,66,0.44,0.46,0.91
+54,Wanderer,Indie Rock,indie,melancholy,0.60,112,0.32,0.52,0.35
+55,Groove Theory,Funk RnB,R&B,happy,0.72,112,0.88,0.86,0.20
