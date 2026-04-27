@@ -6,7 +6,8 @@
 
 ## 📺 Demo Walkthrough
 
-🎬 **[Watch the Loom video walkthrough](#)** ← *(replace with your Loom link)*
+🎬 **[UI Walkthrough — Streamlit Demo](https://www.loom.com/share/c82634eedbed4e22b3280b7696098881)**
+🎬 **[Terminal Demo + Test Harness](https://www.loom.com/share/bf33f1cf60874892a4c344b0dc503f2e)**
 
 ---
 
