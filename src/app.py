@@ -44,7 +44,9 @@ st.markdown("""
 def load_resources():
     from src.recommender import load_songs
     from src.rag import build_vectorstore
-    base = os.path.dirname(os.path.abspath(__file__))
+    # Always resolve data path relative to project root
+    src_dir = os.path.dirname(os.path.abspath(__file__))
+    base = os.path.dirname(src_dir)  # go up from src/ to project root
     songs = load_songs(os.path.join(base, "data", "songs.csv"))
     vs = build_vectorstore(songs)
     return songs, vs
@@ -75,28 +77,42 @@ st.markdown('<div class="main-title">🎧 VibeFinder 2.0</div>', unsafe_allow_ht
 st.markdown('<div class="subtitle">AI-powered music recommendations · RAG + Agentic Workflow</div>', unsafe_allow_html=True)
 
 # Quick profile buttons
+if "active_query" not in st.session_state:
+    st.session_state.active_query = ""
+
 st.markdown("#### 🚀 Try a quick profile or type your own:")
 col1, col2, col3, col4 = st.columns(4)
-quick_query = ""
-if col1.button("😌 Chill Study"):
-    quick_query = "I want chill lofi music to study late at night"
-if col2.button("💪 Workout"):
-    quick_query = "High energy intense rock music for working out"
-if col3.button("🎉 Party"):
-    quick_query = "Happy upbeat pop music for a party"
-if col4.button("😢 Sad Mood"):
-    quick_query = "Melancholy indie music for a rainy day"
+
+btn1 = col1.button("😌 Chill Study")
+btn2 = col2.button("💪 Workout")
+btn3 = col3.button("🎉 Party")
+btn4 = col4.button("😢 Sad Mood")
+
+if btn1:
+    st.session_state.active_query = "I want chill lofi music to study late at night"
+if btn2:
+    st.session_state.active_query = "High energy intense rock music for working out"
+if btn3:
+    st.session_state.active_query = "Happy upbeat pop music for a party"
+if btn4:
+    st.session_state.active_query = "Melancholy indie music for a rainy day"
 
 user_query = st.text_input(
     "Or describe what you want:",
-    value=quick_query,
+    value=st.session_state.active_query,
     placeholder="e.g. I want calm jazz music to relax after work...",
 )
+# Update session state if user typed something
+if user_query != st.session_state.active_query:
+    st.session_state.active_query = user_query
 
 run_btn = st.button("🎵 Find My Vibes", use_container_width=True)
+# Auto-run when a quick profile button is clicked
+auto_run = btn1 or btn2 or btn3 or btn4
 
 # ── Run agent ─────────────────────────────────────────────────────────────────
-if run_btn and user_query.strip():
+if (run_btn or auto_run) and st.session_state.active_query.strip():
+    user_query = st.session_state.active_query
     try:
         songs, vs = load_resources()
     except Exception as e:
@@ -213,5 +229,5 @@ if run_btn and user_query.strip():
     st.markdown(f"### 📊 Confidence: <span style='color:{color}'>{confidence:.1%} ({level})</span>", unsafe_allow_html=True)
     st.progress(min(confidence, 1.0))
 
-elif run_btn and not user_query.strip():
+elif (run_btn or auto_run) and not st.session_state.active_query.strip():
     st.warning("⚠️ Please enter a query or click a quick profile!")

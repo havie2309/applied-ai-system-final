@@ -1,0 +1,24 @@
+{
+  "id": "20260427_010532_505278",
+  "timestamp": "2026-04-27T01:05:32.505278",
+  "query": "I want chill lofi music to study late at night",
+  "user_prefs": {
+    "favorite_genre": "lofi",
+    "favorite_mood": "chill",
+    "target_energy": 0.3,
+    "target_tempo": 70.0
+  },
+  "confidence": {
+    "confidence": 0.987,
+    "level": "high",
+    "avg_score": 4.91,
+    "top_score": 4.95,
+    "spread": 0.097,
+    "strong_matches": 5,
+    "match_ratio": 1.0,
+    "details": "5/5 results had both genre and mood match"
+  },
+  "guardrail_passed": true,
+  "warnings": [],
+  "issues": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "20260427_011728_612514",
+  "timestamp": "2026-04-27T01:17:28.612514",
+  "query": "I want vaporware dreampop fusion music",
+  "user_prefs": {
+    "favorite_genre": "dreampop",
+    "favorite_mood": "unknown",
+    "target_energy": 0.5,
+    "target_tempo": 100.0
+  },
+  "confidence": {
+    "confidence": 0.187,
+    "level": "very_low",
+    "avg_score": 1.337,
+    "top_score": 1.5,
+    "spread": 0.233,
+    "strong_matches": 0,
+    "match_ratio": 0.0,
+    "details": "0/5 results had both genre and mood match"
+  },
+  "guardrail_passed": false,
+  "warnings": [
+    "Unrecognized genre 'dreampop' \u2014 results may be less accurate"
+  ],
+  "issues": [
+    "Confidence too low (0.187 < 0.4) \u2014 consider broadening your preferences"
+  ]
+}

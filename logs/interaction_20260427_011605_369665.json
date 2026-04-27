@@ -1,0 +1,24 @@
+{
+  "id": "20260427_011605_369665",
+  "timestamp": "2026-04-27T01:16:05.369665",
+  "query": "High energy intense rock music for working out",
+  "user_prefs": {
+    "favorite_genre": "rock",
+    "favorite_mood": "intense",
+    "target_energy": 0.9,
+    "target_tempo": 160.0
+  },
+  "confidence": {
+    "confidence": 0.888,
+    "level": "high",
+    "avg_score": 4.629,
+    "top_score": 4.979,
+    "spread": 1.549,
+    "strong_matches": 4,
+    "match_ratio": 0.8,
+    "details": "4/5 results had both genre and mood match"
+  },
+  "guardrail_passed": true,
+  "warnings": [],
+  "issues": []
+}
