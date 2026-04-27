@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
-from langchain.schema import Document
+from langchain_core.documents import Document
 
 load_dotenv()
 logger = logging.getLogger(__name__)

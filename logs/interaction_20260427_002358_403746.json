@@ -1,0 +1,24 @@
+{
+  "id": "20260427_002358_403746",
+  "timestamp": "2026-04-27T00:23:58.403746",
+  "query": "I want chill music to study late at night",
+  "user_prefs": {
+    "favorite_genre": "unknown",
+    "favorite_mood": "chill",
+    "target_energy": 0.3,
+    "target_tempo": 60.0
+  },
+  "confidence": {
+    "confidence": 0.404,
+    "level": "low",
+    "avg_score": 2.887,
+    "top_score": 2.908,
+    "spread": 0.05,
+    "strong_matches": 0,
+    "match_ratio": 0.0,
+    "details": "0/5 results had both genre and mood match"
+  },
+  "guardrail_passed": true,
+  "warnings": [],
+  "issues": []
+}
