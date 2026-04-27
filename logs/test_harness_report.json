@@ -1,0 +1,190 @@
+{
+  "summary": {
+    "total_cases": 8,
+    "total_checks": 41,
+    "passed": 41,
+    "failed": 0,
+    "pass_rate": 100.0,
+    "avg_confidence": 0.73
+  },
+  "results": [
+    {
+      "id": "TC01",
+      "name": "Chill Lofi Study",
+      "checks": {
+        "min_results": true,
+        "min_confidence": true,
+        "top_genre_match": true,
+        "rag_returned_results": true,
+        "valid_score_range": true
+      },
+      "passed": 5,
+      "failed": 0,
+      "warnings_triggered": false,
+      "confidence": 0.987,
+      "confidence_level": "high",
+      "guardrail_passed": true,
+      "top_songs": [
+        "Library Rain",
+        "Rainy Day Loops",
+        "Night Notebook"
+      ]
+    },
+    {
+      "id": "TC02",
+      "name": "Intense Rock Workout",
+      "checks": {
+        "min_results": true,
+        "min_confidence": true,
+        "top_genre_match": true,
+        "rag_returned_results": true,
+        "valid_score_range": true
+      },
+      "passed": 5,
+      "failed": 0,
+      "warnings_triggered": false,
+      "confidence": 0.89,
+      "confidence_level": "high",
+      "guardrail_passed": true,
+      "top_songs": [
+        "Thunder Road",
+        "Storm Runner",
+        "Breakaway"
+      ]
+    },
+    {
+      "id": "TC03",
+      "name": "Happy Pop Party",
+      "checks": {
+        "min_results": true,
+        "min_confidence": true,
+        "top_genre_match": true,
+        "rag_returned_results": true,
+        "valid_score_range": true
+      },
+      "passed": 5,
+      "failed": 0,
+      "warnings_triggered": false,
+      "confidence": 0.891,
+      "confidence_level": "high",
+      "guardrail_passed": true,
+      "top_songs": [
+        "Neon Pulse",
+        "Sugar Rush",
+        "Sunrise City"
+      ]
+    },
+    {
+      "id": "TC04",
+      "name": "Jazz Relaxation",
+      "checks": {
+        "min_results": true,
+        "min_confidence": true,
+        "top_genre_match": true,
+        "rag_returned_results": true,
+        "valid_score_range": true
+      },
+      "passed": 5,
+      "failed": 0,
+      "warnings_triggered": false,
+      "confidence": 0.781,
+      "confidence_level": "high",
+      "guardrail_passed": true,
+      "top_songs": [
+        "Bossa Nova Sunset",
+        "Coffee Shop Stories",
+        "Blue Hour Drift"
+      ]
+    },
+    {
+      "id": "TC05",
+      "name": "Metal Intensity",
+      "checks": {
+        "min_results": true,
+        "min_confidence": true,
+        "top_genre_match": true,
+        "rag_returned_results": true,
+        "valid_score_range": true
+      },
+      "passed": 5,
+      "failed": 0,
+      "warnings_triggered": false,
+      "confidence": 0.757,
+      "confidence_level": "high",
+      "guardrail_passed": true,
+      "top_songs": [
+        "Rage Protocol",
+        "Steel Rain",
+        "Iron Pulse"
+      ]
+    },
+    {
+      "id": "TC06",
+      "name": "Unknown Genre Guardrail",
+      "checks": {
+        "min_results": true,
+        "min_confidence": true,
+        "top_genre_match": "skipped (unknown genre)",
+        "warnings_triggered": true,
+        "rag_returned_results": true,
+        "valid_score_range": true
+      },
+      "passed": 5,
+      "failed": 0,
+      "warnings_triggered": true,
+      "confidence": 0.183,
+      "confidence_level": "very_low",
+      "guardrail_passed": false,
+      "top_songs": [
+        "Golden Hour",
+        "Focus Flow",
+        "Night Notebook"
+      ]
+    },
+    {
+      "id": "TC07",
+      "name": "Classical Peaceful",
+      "checks": {
+        "min_results": true,
+        "min_confidence": true,
+        "top_genre_match": true,
+        "rag_returned_results": true,
+        "valid_score_range": true
+      },
+      "passed": 5,
+      "failed": 0,
+      "warnings_triggered": false,
+      "confidence": 0.768,
+      "confidence_level": "high",
+      "guardrail_passed": true,
+      "top_songs": [
+        "Sakura Rain",
+        "Cathedral Sound",
+        "Moonlight Sonata Remix"
+      ]
+    },
+    {
+      "id": "TC08",
+      "name": "Energy Out of Range Guardrail",
+      "checks": {
+        "min_results": true,
+        "min_confidence": true,
+        "top_genre_match": true,
+        "warnings_triggered": true,
+        "rag_returned_results": true,
+        "valid_score_range": true
+      },
+      "passed": 6,
+      "failed": 0,
+      "warnings_triggered": true,
+      "confidence": 0.584,
+      "confidence_level": "medium",
+      "guardrail_passed": true,
+      "top_songs": [
+        "Bass Drop",
+        "Rave Nation",
+        "Techno Surge"
+      ]
+    }
+  ]
+}
