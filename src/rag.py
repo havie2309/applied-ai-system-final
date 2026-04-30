@@ -12,6 +12,7 @@ from dotenv import load_dotenv
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_core.documents import Document
+from src.config import openai_api_key_help_text, resolve_openai_api_key
 
 load_dotenv()
 logger = logging.getLogger(__name__)
@@ -54,9 +55,13 @@ def build_vectorstore(songs: List[Dict], force_rebuild: bool = False) -> Chroma:
     If the DB already exists, it loads it instead of re-embedding.
     Set force_rebuild=True to re-embed everything from scratch.
     """
+    api_key = resolve_openai_api_key()
+    if not api_key:
+        raise RuntimeError(openai_api_key_help_text())
+
     embeddings = OpenAIEmbeddings(
         model="text-embedding-ada-002",
-        openai_api_key=os.getenv("OPENAI_API_KEY")
+        openai_api_key=api_key
     )
 
     if os.path.exists(CHROMA_DIR) and not force_rebuild:
